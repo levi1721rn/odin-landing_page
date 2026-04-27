@@ -21,12 +21,13 @@ a{
     align-items : center;
     background-color: #1f2937;
     padding-left: 200px;
-    padding-right: 150px;
+    padding-right: 35d0px;
 }
 .headerlogo{
     font-size: 24px;
     font-weight: 500;
     color: white;
+    margin-left: 100px;
 }
 .section1{
     flex : 1;
@@ -40,6 +41,7 @@ a{
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
 }
 .mt {
     display: flex;
@@ -65,20 +67,16 @@ a{
     border-radius: 5px;
 }
 .section1 .right{
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 300px;
 }
-.card{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    margin-top: 35px;
-    font-size: 18px;
-    color: white;
-    background-color: grey;
+.section1 .right img{
+    max-width: 500px;
+    max-height: 300px;
+    width : auto;
+    height: auto;
 }
 .section2{
   flex :1;
@@ -88,6 +86,18 @@ a{
   text-align: center;
   padding-bottom: 70px;
   padding-top: 70px;
+}
+.image-row {
+    display: flex;         /* Places images in a row */
+    gap: 10px;             /* Space between images */
+    flex-wrap: nowrap;     /* Prevents wrapping to next line */
+}
+
+.image-row img {
+    max-width: 300px;      /* Limit width */
+    max-height: 150px;     /* Limit height */
+    width: auto;
+    height: auto;
 }
 .title{
     flex-basis: 100%;
@@ -116,7 +126,7 @@ a{
 .quote{
     flex-basis: 100%;
     padding-bottom: 20px;
-    padding-left: 100px;
+    padding-left: 150px;
     padding-right: 100px;
     padding-top: 100px;
     font-size: 36px;
@@ -134,7 +144,6 @@ a{
 }
 .section4{
     display: flex;
-    flex-wrap: wrap;
     margin: 80px;
     margin-left: 150px;
     margin-right: 150px;
@@ -145,16 +154,15 @@ a{
     border-radius: 15px;
 }
 .section4 .left{
+    flex-wrap: wrap;
    display: flex;
    flex-direction: column;
    margin-left: 100px;
 }
 .section4 .right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
     margin-right: 200px;
+    margin-left: 150px;
+    margin-top: 20px;
 }
 .btext{
     font-size: 24px;
@@ -168,12 +176,13 @@ a{
 .section4 button{
     background-color: #3288f6;
     color: #f9faf8;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     border-color: #f9faf8;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     white-space: nowrap;
+    padding: 8px 16px;
 }
 .footer{
     flex: 1;

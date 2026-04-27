@@ -2,6 +2,7 @@ body{
     display : flex;
     flex-direction: column;
     font-family: Roboto;
+    margin: 0px;
 }
 ul{
     list-style: none;
@@ -20,7 +21,7 @@ a{
     align-items : center;
     background-color: #1f2937;
     padding-left: 200px;
-    padding-right: 250px;
+    padding-right: 150px;
 }
 .headerlogo{
     font-size: 24px;
@@ -61,6 +62,7 @@ a{
     margin-left: 0px;
     padding-bottom: 5px;
     padding-top: 5px;
+    border-radius: 5px;
 }
 .section1 .right{
     flex: 1;
@@ -120,6 +122,8 @@ a{
     font-size: 36px;
     color: #1f2937;
     font-weight: 200;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .name{
     padding-left: 400px;
@@ -127,4 +131,47 @@ a{
     font-size: 18px;
     font-weight: 1000;
     color: #1f2937;
+}
+.section4{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 50px;
+    background-color: #3288f6;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 15px;
+}
+.section4 .left{
+   display: flex;
+   flex-direction: column;
+   margin-left: 100px;
+}
+.section4 .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-right: 200px;
+}
+.btext{
+    font-size: 24px;
+    font-weight: 400 ;
+    color: #f9faf8;
+}
+.sline{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.section4 button{
+    background-color: #3288f6;
+    color: #f9faf8;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #f9faf8;
+    border-radius: 5px;
 }

@@ -175,3 +175,15 @@ a{
     border-color: #f9faf8;
     border-radius: 5px;
 }
+.footer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+.credits{
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 20px;
+}

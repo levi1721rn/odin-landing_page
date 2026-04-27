@@ -21,7 +21,7 @@ a{
     align-items : center;
     background-color: #1f2937;
     padding-left: 200px;
-    padding-right: 35d0px;
+    padding-right: 350px;
 }
 .headerlogo{
     font-size: 24px;
@@ -86,16 +86,17 @@ a{
   text-align: center;
   padding-bottom: 70px;
   padding-top: 70px;
+  padding-right: 100px;
 }
 .image-row {
-    display: flex;         /* Places images in a row */
-    gap: 10px;             /* Space between images */
-    flex-wrap: nowrap;     /* Prevents wrapping to next line */
+    display: flex;         
+    gap: 10px;             
+    flex-wrap: nowrap;     
 }
 
 .image-row img {
-    max-width: 300px;      /* Limit width */
-    max-height: 150px;     /* Limit height */
+    max-width: 300px;      
+    max-height: 150px;     
     width: auto;
     height: auto;
 }
